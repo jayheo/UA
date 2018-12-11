@@ -13,7 +13,7 @@ If you found the provided code useful, please cite our work.
 @inproceedings{heo2018ua,
     author    = {Jay Heo and Hae Beom Lee and Saehoon Kim and Juho Lee and Kwang Joon Kim and Eunho Yang and Sung Ju Hwang},
     title     = {Uncertainty-Aware Attention for Reliable Interpretation and Prediction},
-    booktitle = {NIPS},
+    booktitle = {NeurIPS},
     year      = {2018}
               }
 ```
