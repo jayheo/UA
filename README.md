@@ -6,6 +6,13 @@
 ## Abstract
 Attention mechanism is effective in both focusing the deep learning models on relevant features and interpreting them. However, attentions may be unreliable since the networks that generate them are often trained in a weakly-supervised manner. To overcome this limitation, we introduce the notion of input-dependent uncertainty to the attention mechanism, such that it generates attention for each feature with varying degrees of noise based on the given input, to learn larger variance on instances it is uncertain about. We learn this Uncertainty-aware Attention (UA) mechanism using variational inference, and validate it on various risk prediction tasks from electronic health records on which our model significantly outperforms existing attention models. The analysis of the learned attentions shows that our model generates attentions that comply with clinicians’ interpretation, and provide richer interpretation via learned variance. Further evaluation of both the accuracy of the uncertainty calibration and the prediction performance with “I don’t know” decision show that UA yields networks with high reliability as well.
 
+### Qualitative Anlysis
+The figure below represents analyzed ontributions of each vital sign in PhysioNet mortality task for a patient at the timestep with the highest attention. 
+
+<img src='imgs/qualitative_analysis.png' align="center" width="1000px"/>
+
+
+
 ## Reference
 If you found the provided code useful, please cite our work.
 
